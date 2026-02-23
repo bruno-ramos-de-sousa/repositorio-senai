@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        TechSoluções - About us
+    </title>
+    
+    <style> /*CRIACAO DE CLASSES DE ESTILOS*/
+
+        body { /*ESTILO DO CORPO DO SITE*/
+            font-family: sans-serif; /*LINHA DE CSS PARA FONTE ORTOGRAFICA*/
+            margin: 0;
+            padding: 0; /*REMOVE O LIMITE DA PAGINA*/
+            animation: cicloCores 2s infinite;
+         }
+
+        @keyframes cicloCores {
+          0%   { background-color: red; }
+          25%  { background-color: yellow; }
+          50%  { background-color: green; }
+          75%  { background-color: blue; }
+          100% { background-color: red; }
+         }
+        
+    
+        h2 {                               
+            text-align: center; /*ALINHAMENTO DO TEXTO*/
+            font-size: 35px; /*TAMANHO DA FONTE*/
+            margin: 0;
+         }
+    
+        p {                                
+            text-align: justify; 
+            font-size: 17px;
+         }
+
+        .timeline { /*CRIAR COLUNAS*/               
+            display: flex; /*SEPARA EM COLUNAS*/
+            gap: 20px; /*ESPAÇAMENTO DAS COLUNAS*/
+            margin-bottom: 20px;
+            }
+
+        .container {  
+            display: flex; /*DA ELASTICIDADE A CAIXA DE TEXTO*/ 
+            flex-direction: column; /*EMPILHA AS LINHAS DE TIMELINE*/                 
+            max-width: 1200px; 
+            margin: 0 auto;
+            padding: 20px; /*ESPACAMENTO*/
+            }
+
+        .caixa-texto {
+            flex: 1; /*DEIXA TODOS DO MESMO TAMANHO*/
+            background: #f4f4f4;
+            padding: 20px;
+            border-radius: 8px; /*BORDAS ARREDONDADAS*/
+             }
+
+    </style>
+</head>
+<body>
+
+    <h1 style="background-color: black; font-size: 90px; text-align: center; color: #f4f4f4; margin: 0; padding: 20px;">
+    TechSoluções - Autorizada Técnica de TI
+    </h1>
+
+    <h2 style="font-size: 40px; text-align: center; margin-top: 60px; margin-bottom: 0;">
+    About Us
+    </h2>
+
+    <br>
+
+    <div class="container"> <!--div - GRUPAMENTO DAS LINHAS DE COMANDOS-->
+        <div class="timeline"> <!--class - DENOMINAÇÃO DE CLASSES-->
+            <h2 class="caixa-texto">
+                Nossa História
+            </h2>
+            <h2 class="caixa-texto">
+                Nossos Valores
+            </h2>
+            <h2 class="caixa-texto">
+                Nossa Missão
+            </h2>
+        </div>
+        <div class="timeline">
+            <div class="caixa-texto">
+                <p>
+                    - A TechSoluções é uma startup que iniciou suas atividades em 2006,  
+                    oferecendonossa demanda suporte técnico especializado domestico
+                </p>
+                <p>
+                    - Para demandas domésticas na pequena cidade de [insira o nome da cidade]. Acompanhando o acelerado  
+                    desenvolvimento tecnológico da região,expandiu-se em paralelo ao nosso amadurecimento como empresa.
+                </p> 
+                <p>
+                  - Hoje, transformamos essa herança de proximidade e cuidado com o cliente em soluções robustas e inovadoras, escalando 
+                  nossa expertise técnica para atender a novos mercados sem perder a agilidade e a essência resolutiva que nos deu origem.
+                </p>
+            </div>
+            <div class="caixa-texto">
+                <p>
+                    Nossa missão ultrapassa a simples entrega de suporte técnico; nós existimos para ser o alicerce tecnológico de quem 
+                    busca evolução. Desde nossa fundação em 2006, assumimos o compromisso de democratizar o acesso a soluções de TI de
+                    alto nível, transformando o que antes era suporte doméstico em uma estrutura de inovação robusta e escalável. 
+                </p>
+                <p>
+                    Trabalhamos para garantir que a tecnologia seja uma ferramenta de liberdade, e não um obstáculo. Nossa missão 
+                    é aplicar décadas de expertise técnica para construir ambientes digitais seguros, resilientes e ultraeficientes.
+                    Fazemos isso preservando o DNA resolutivo que nos deu origem: a capacidade de olhar nos olhos do cliente, entender
+                    sua dor e entregar uma solução precisa com agilidade máxima.
+                </p>
+            </div>
+            <div class="caixa-texto">
+                <p>
+                    • Proximidade Genuína. Mantemos a herança de cuidado com o cliente. Para nós, tecnologia é feita por pessoas e para pessoas.
+                </p>
+                <p>
+                    • Essência Resolutiva. Focamos em resolver problemas. Nossa agilidade técnica elimina barreiras e simplifica o complexo.
+                </p>
+                <p>
+                    • Evolução Constante. Assim como acompanhamos o desenvolvimento da região desde 2006, estamos em contínuo aprendizado para entregar inovação relevante.
+                </p>
+                <p>
+                    • Robustez e Confiança. Entregamos soluções sólidas, construídas sobre uma base de experiência técnica comprovada e escalável.
+                </p>
+            </div>
+        </div>    
+    </div>  
+</body>
+</html>
