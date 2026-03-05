@@ -13,7 +13,7 @@ Este espaço 🌌 foi criado com o objetivo principal de documentar 📝 e centr
 
 ## 💻 Linguagens e Tecnologias Abordadas
 
-Ao longo do curso 📚, o repositório será alimentado com códigos 👨‍💻 e configurações ⚙️ que englobam todo o ciclo de desenvolvimento de software 🔄. A construção de interfaces 🖼️ e aplicações web 🌐 será demonstrada através de atividades utilizando HTML 🏗️, estilização de páginas 🎨, JavaScript ⚡ e java ☕ sempre com foco em design responsivo 📱, acessibilidade ♿ e boas práticas de UX/UI 💡. 
+Ao longo do curso 📚, o repositório será alimentado com códigos 👨‍💻 e configurações ⚙️ que englobam todo o ciclo de desenvolvimento de software 🔄. A construção de interfaces 🖼️ e aplicações web 🌐 será demonstrada através de atividades utilizando HTML 🏗️, estilização de páginas 🎨, JavaScript ⚡ e java ☕, sempre com foco em design responsivo 📱, acessibilidade ♿ e boas práticas de UX/UI 💡. 
 
 Para a lógica de negócios e persistência de dados 💾, haverá implementações de back-end 🔙 utilizando Programação Orientada a Objetos 🧩 estruturada no padrão MVC, integrando o consumo e a criação de Web Services 🌍 baseados no protocolo HTTP. Essas aplicações estarão conectadas a Sistemas Gerenciadores de Bancos de Dados 🗄️ baseados no modelo relacional. O repositório também contará com códigos voltados para o desenvolvimento de aplicativos para dispositivos móveis 📲, explorando recursos de hardware 🔋 e consumo de APIs RESTful 🔗.
 
