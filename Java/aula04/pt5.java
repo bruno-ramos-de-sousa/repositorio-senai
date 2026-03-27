@@ -9,7 +9,7 @@ public class pt5 {
         do {
             System.out.println("""
                     -----Escolha uma opção-----
-                    (1) Cadastrar Convidade
+                    (1) Cadastrar Convidado
                     (2) Listar Convidados
                     (3) Remover Convidados
                     (4) Sair do Sistema
